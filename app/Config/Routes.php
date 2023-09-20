@@ -16,3 +16,9 @@ $routes->get('average-income/detail/(:any)', 'AverageIncome::detail/$1');
 $routes->get('average-income/edit/(:any)', 'AverageIncome::edit/$1');
 $routes->put('average-income/update/(:any)', 'AverageIncome::update/$1');
 $routes->put('average-income/delete/(:segment)', 'AverageIncome::destroy/$1');
+
+$routes->get('test', 'Test::index');
+$routes->get('test2', 'Test::test2');
+$routes->get('test3', 'Test::test3');
+$routes->get('test4', 'Test::test4');
+$routes->get('test5', 'Test::test5');
